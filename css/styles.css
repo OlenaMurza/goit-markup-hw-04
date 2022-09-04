@@ -38,8 +38,6 @@ body {
     padding-right: 15px;
     margin-left: auto;
     margin-right: auto;
-  
-    
 }
 
 .section {
@@ -91,6 +89,7 @@ body {
     padding-left: 0;
     margin-left: auto;
     justify-content: flex-end;
+    color: #757575;
 }
 
 .list-item {
@@ -107,16 +106,10 @@ body {
     text-decoration: none;
 }
 
-.list-item:hover,
-.list-item:focus {
-    color: #2196f3;
-}
-
 .list-item.current {
     color: #2196f3;
 }
- 
-/* email_tel */
+ /* email_tel */
 .list-item-link1:last-child {
     margin-right: 0;
 }
@@ -125,8 +118,8 @@ body {
     display: flex;
     align-content: center;
     gap: 10px;
+    padding-top: 32px;
 }
-
 .list-item-link1 {
     display: flex;
     align-content: center;
@@ -134,7 +127,8 @@ body {
     padding-top: 32px;
     padding-bottom: 32px;
     margin-bottom: 30px;
-    color: currentColor;
+    align-items: center;
+    justify-content: center;
        
     font-weight: 500;
     font-size: 14px;
@@ -143,34 +137,29 @@ body {
     color: #757575;
     text-decoration: none;
 }
-
-.header-icon {
-    fill: currentColor;
+.header-icon-envelope {
+    width: 16px;
+    height: 12px;
     margin-right: 10px;
+    fill: currentColor;
 }
 
+.header-icon-smartphone {
+    width: 10px;
+    height: 16px;
+    margin-right: 10px;
+    fill: currentColor;
+}
+.list-item:hover,
+.list-item:focus,
 .list-item-link1:hover,
-.header-icon:hover {
-    color: #188ce8;
-}
-
-.list-item-link1:focus,
-.header-icon:focus {
+.list-item-link1:focus {
     color: #2196f3;
 }
 
-
 /* header */
 
-.overlay {
-    max-width: 1600px;
-    height: 600px;
-    margin-left: auto;
-    margin-right: auto;
-    background: #2F303A;
-    background: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/Fon.jpg);
-    background-size: cover;
-}
+
 
 .hero {
     display: block;
@@ -182,11 +171,18 @@ body {
 }
 
 .hero-main {
-    height: 600px;
-    margin-left: auto;
-    margin-right: auto;
+   
+    
     padding-top: 200px;
     padding-bottom: 200px;
+
+    max-width: 1600px;
+        height: 600px;
+        margin-left: auto;
+        margin-right: auto;
+        background: #2F303A;
+        background: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/Fon.jpg);
+        background-size: cover;
     
    
     box-sizing: border-box;
@@ -429,16 +425,17 @@ margin-right: 0;
     display: flex;
     gap: 10px;
     justify-content: center;
-   }
+}
 
 .social-link {
     display: flex;
     align-items: center;
     justify-content: center;
-width: 44px;
-height: 44px;
-border-radius: 50%;
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
 }
+
 .social-link:hover,
 .social-link:focus {
     fill: #FFFFFF;
@@ -448,6 +445,7 @@ border-radius: 50%;
 .social-icon {    
     width: 20px;
     height: 20px;
+    fill: currentColor;
   }
 
 /* Постійні клієнти */
