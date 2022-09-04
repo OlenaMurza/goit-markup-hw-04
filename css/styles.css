@@ -214,6 +214,7 @@ body {
     min-height: 50px;
     margin: 0px;
     padding: 0px;
+    border: none;
 
     cursor: pointer;
     background-color: #2196f3;
@@ -222,6 +223,7 @@ body {
     font-family: inherit;
     border-radius: 4px;
     text-align: center; 
+   
     
 }
 
