@@ -480,28 +480,22 @@ margin-right: 0;
     border-radius: 4px;
     padding: 16px 32px;}
 
-.group-client-link:hover,
-.group-client-link-input:focus {
-    border: 1px solid #2196F3;
-}
 
 .group-client-link {
     color: #757575;
 }
+.group-client-link:hover,
+.group-client-link:focus {
 
+    border: 1px solid #2196F3;
+    color: #2196F3;
+}
 .group-client-icon {
    background-repeat: no-repeat;
    align-content: center;
    width: 106px;
    height: 60px;
    fill:currentColor; 
-}
-
-.group-client-link:hover,
-.group-client-link:focus {
-
- border: 1px solid #2196F3; 
- color: #2196F3;    
 }
 
 
@@ -622,6 +616,7 @@ margin-right: 0;
 }
 .social-link:hover,
 .social-link:focus {
+    
     color: #fff;
     background-color: #2196F3;
    }
