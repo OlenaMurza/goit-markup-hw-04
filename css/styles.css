@@ -271,9 +271,9 @@ body {
 }
 .group-features {
     display: flex;
-        align-items: center;
-        margin-bottom: 30px;
-        height: 120px;
+    align-items: center;
+    margin-bottom: 30px;
+    height: 120px;
     
     background-color: #F5F4FA;
     justify-content: center;
@@ -432,10 +432,10 @@ margin-right: 0;
 }
 
 .social-item {
-    color: #757575;
+    color: #AFB1B8;
 }
  .social-link {
-     color: #757575;
+     color: #AFB1B8;
  }
 
 .social-icon {
@@ -462,34 +462,34 @@ margin-right: 0;
         color: #212121;
         text-align: center;
 }
-.client-item {
-    width: 170px;
-    height: 92px;
-
-}
 
 .client-list {
     display: flex;
-    gap: 30px;  }
+    gap: 30px;
+}
+
+.client-item {
+    width: 170px;
+    height: 92px;
+}
 
 .group-client-link {
     display: flex;
     align-items: center;
     justify-content: center;
     border: 1px solid #AFB1B8;
+    color: #AFB1B8;
     border-radius: 4px;
-    padding: 16px 32px;}
-
-
-.group-client-link {
-    color: #757575;
+    width: 100%;
+    height: 100%;
 }
-.group-client-link:hover,
-.group-client-link:focus {
 
-    border: 1px solid #2196F3;
-    color: #2196F3;
-}
+.client-list .group-client-link:hover,
+.client-list .group-client-link:focus {
+border-color: #2196F3;
+color: #2196F3;
+} 
+
 .group-client-icon {
    background-repeat: no-repeat;
    align-content: center;
@@ -550,7 +550,7 @@ margin-right: 0;
 }
 
 .link-footer .social-link-footer {
-  display: flex;
+    display: flex;
     margin: 0;
     padding: 0;
 }
@@ -594,31 +594,39 @@ margin-right: 0;
     text-transform: uppercase;
     color: #fff;
 }
-/* .social-footer {
-    width: 206px;
-    height: 44px;
-} */
+
+.social {
+    display: flex;
+    gap: 10px;
+}
+
+.social-item {
+        width: 44px;
+        height: 44px;
+        border-radius: 50%;
+      }
 
 .social-link-footer {
     display: flex;
     color: #fff;
+    
         align-items: center;
         justify-content: center;
-        width: 44px;
-        height: 44px;
+        width: 100%;
+        height: 100%;
         border-radius: 50%;
     background-color: rgba(255, 255, 255, 0.1);
     }
 
-
 .social-icon {
     fill: currentColor;
 }
-.social-link:hover,
-.social-link:focus {
+.social-item:hover,
+.social-item:focus {
     
     color: #fff;
     background-color: #2196F3;
+    outline: #2196F3;
    }
 
 
