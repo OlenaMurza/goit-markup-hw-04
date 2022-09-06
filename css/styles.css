@@ -18,8 +18,10 @@ body {
     padding: 0;    
 }
 
-.img {
+img {
     display: block;
+    width: 100%;
+    height: auto;
 }    
 .header {
     text-align: center;
@@ -139,14 +141,14 @@ body {
 .header-icon-envelope {
     width: 16px;
     height: 12px;
-    margin-right: 10px;
+  
     fill: currentColor;
 }
 
 .header-icon-smartphone {
     width: 10px;
     height: 16px;
-    margin-right: 10px;
+    
     fill: currentColor;
 }
 .list-item:hover,
@@ -426,8 +428,8 @@ margin-right: 0;
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 44px;
-    height: 44px;
+    width: 100%;
+    height: 100%;
     border-radius: 50%;
 }
 
@@ -582,7 +584,7 @@ color: #2196F3;
     align-items: baseline;
 }
 .contact-footer {
-    padding-right: 70px;
+    margin-right: 70px;
 }
 
 .content-footer {
@@ -725,10 +727,13 @@ color: #2196F3;
 
 .list-item2:hover,
 .list-item2:focus {
-    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1),
-     0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
-}
+    border: 1px solid #EEEEEE;
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+            1px 4px 6px rgba(0, 0, 0, 0.16);
+    }
+
 .project-img {
+    text-decoration: none;
     /* margin-block: 370px 400px;
     margin-block: inherit;
     margin-bottom: 20px;
